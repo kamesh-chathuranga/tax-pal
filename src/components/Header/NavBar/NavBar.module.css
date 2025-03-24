@@ -1,0 +1,52 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar a{
+    padding: 0.4em 0.5em;
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    border-radius: 0.5em;
+}
+.navBar a:hover{
+    background-color: #f1f5f9;
+}
+.leftSection{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+.logo-container{
+    display: flex;
+    gap: 0.5em;
+    margin-right: 1em;
+}
+.logo-container a:hover{
+    background-color: transparent;
+}
+.logo-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary--btn-color);
+}
+.colorText{
+    color: var(--primary--btn-color);
+}
+.rightSection{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.rightSection .btn{
+    padding: 0.6em 1em;
+    font-weight: 500;
+    border-radius: 1.5em;
+    color: var(--primary-text-color-white);
+    background-color: var(--primary--btn-color);
+    font-size: 0.9rem;
+}
+.rightSection .btn:hover{
+    background-color: #4180ee;
+}

@@ -1,0 +1,30 @@
+.testimonial-container{
+    padding: 9em;
+    background-color: #f8fafc;
+}
+.testimonialText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 44em;
+    gap: 1em
+}
+.testimonialText h1{
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+.testimonialText h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 4em;
+}
+.review-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+   
+}

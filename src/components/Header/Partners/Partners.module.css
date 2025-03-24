@@ -1,0 +1,10 @@
+.partners h4{
+    font-weight: 400;
+    text-align: center;
+}
+.partners .logo{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-block: 2em 4em;
+}

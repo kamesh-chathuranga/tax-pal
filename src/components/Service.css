@@ -1,0 +1,99 @@
+.service-container{
+    margin-block: 8em;
+}
+.serv-text{
+    max-width: 55.5%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2em;
+}
+.serv-text h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.serv-text h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.card-container{
+    margin-block: 5em;
+    display: flex;
+    gap: 1.5em;
+}
+.card-container h5{
+    transition: color 0.2s ease-in;
+    color: #0000009d;
+    font-size: 0.9rem;
+}
+.card-container h3{
+    transition: color 0.2s ease-in;
+    font-weight: 500;
+    color: #0000009d;
+    margin-block: 1em;
+}
+.card-container p{
+    transition: color 0.2s ease-in;
+    color: #0000008b;
+    font-size: 0.85rem;
+}
+.card-container span{
+    display: block;
+    margin-bottom: 0.1em;
+    font-size: 40px;
+    color: #0000009d;
+    transition: color 0.5s ease;
+}
+.ser-card:hover{
+    cursor: pointer;
+}
+.ser-card:hover h3{
+    color: var(--primary-text-color-black);
+}
+.ser-card:hover p{
+    color: var(--primary-text-color-black);
+}
+.ser-card:hover h5{
+    color: var(--primary-text-color-black);
+}
+.ser-card:hover span{
+    color: var(--primary-text-color-black);
+}
+.ser-card-active h3{
+    color: var(--primary-text-color-black);
+}
+
+.ser-card-active{
+    cursor: pointer;
+}
+.ser-card-active p{
+    color: var(--primary-text-color-black);
+}
+.ser-card-active h5{
+    color: var(--primary--btn-color);
+}
+.ser-card-active span{
+    color: var(--primary--btn-color);
+}
+.sliderContainer{
+    padding: 4em;
+    background-color: #e2e8f0;
+    max-height: 80vh;
+    display: flex;
+    overflow-x: hidden;
+    border-radius: 2em;
+    border: 1px solid #0000001e;
+    gap: 2.5em;
+}
+.slideImages{
+    border: 1px solid #0000001e;
+}
+.sliderContainer img{
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+    width: 77%;
+    box-shadow: 2px 4px 12px 0px #0000004d;
+}

@@ -1,0 +1,33 @@
+.review-card-wrapper{
+    background-color: #fff;
+    padding: 1.5em;
+    box-shadow: 1px 6px 20px 0px #00000024;
+    border-radius: 1em;
+    height: fit-content;
+}
+.review-text{
+    font-size: 1.1rem;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+.reviewer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #0000000a;
+    padding-top: 1em;
+}
+.name h4{
+    color: #142049;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+.name .position{
+    color: #00000086;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.profile img{
+    width: 60px;
+    border-radius: 50%;
+}

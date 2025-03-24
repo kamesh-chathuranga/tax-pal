@@ -1,0 +1,55 @@
+.heroSection{
+    margin-block: 11em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 60em;
+}
+.hero-text h1{
+    line-height: 1.1em;
+    font-size: 4.2rem;
+}
+.colorText{
+    color: var(--primary--btn-color);
+}
+.subText{
+    margin-top: 1.5em;
+    margin-bottom: 2.8em;
+    text-align: center;
+    max-width: 40em;
+}
+.subText h4{
+    line-height: 1.8em;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+
+
+
+.free-btn{
+    font-size: 0.9rem;
+    margin-right: 2em;
+    background-color: var(--secondary-background-color);
+}
+.free-btn:hover{
+    background-color: #334155;
+}
+.watch-btn{
+    border: 1px solid #eceff4;
+    font-size: 0.9rem;
+    color: var(--secondary-text-color);
+    background-color: transparent;
+}
+.watch-btn:hover{
+    border-color: #d6dbe2;
+}
+.playIcon{
+    color: var(--primary--btn-color);
+    margin-right: 0.5em;
+}
